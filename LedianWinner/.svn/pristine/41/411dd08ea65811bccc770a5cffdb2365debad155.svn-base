@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CountImaAtlas
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 2
+      filterMode: 2
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 25
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingParameters:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4a511a4ad7b8b4b429bea91b4cf15605, type: 3}
+    - {fileID: 2800000, guid: 063905bdede09ad4d86c58f0bbdd7572, type: 3}
+    - {fileID: 2800000, guid: 5d0c3981e48125d4fa313be076eee7ae, type: 3}
+    - {fileID: 2800000, guid: 93f8eea2cbd1e6c4ea284043660f99db, type: 3}
+    - {fileID: 2800000, guid: 2884bd0b41acff043bca6cc234211a65, type: 3}
+    - {fileID: 2800000, guid: 627787cfccad81347a660f91bf4133e9, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5d0c3981e48125d4fa313be076eee7ae, type: 3}
+  - {fileID: 21300000, guid: 93f8eea2cbd1e6c4ea284043660f99db, type: 3}
+  - {fileID: 21300000, guid: 4a511a4ad7b8b4b429bea91b4cf15605, type: 3}
+  - {fileID: 21300000, guid: 2884bd0b41acff043bca6cc234211a65, type: 3}
+  - {fileID: 21300000, guid: 063905bdede09ad4d86c58f0bbdd7572, type: 3}
+  - {fileID: 21300000, guid: 627787cfccad81347a660f91bf4133e9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 3
+  - 4
+  - 1
+  - 5
+  - 2
+  - 6
+  m_Tag: CountImaAtlas
+  m_IsVariant: 0

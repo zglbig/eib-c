@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: VIPBiao
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 2
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c988e120b8b869a4dae8b3cdd75dabfb, type: 3}
+    - {fileID: 2800000, guid: e79271ade87fd124abb15ad8e33c5a4c, type: 3}
+    - {fileID: 2800000, guid: 18754e1d7895d7440b54ad2d06f046a9, type: 3}
+    - {fileID: 2800000, guid: be3db2d6bfbba25449b2f497552357f7, type: 3}
+    - {fileID: 2800000, guid: abaa463548602514ca87fd2f4ea4ed24, type: 3}
+    - {fileID: 2800000, guid: 7d8321b8c7f31a24f99c64fbc60afe4f, type: 3}
+    - {fileID: 2800000, guid: d68b7a2cb5728c84c9132d124c93cd33, type: 3}
+    - {fileID: 2800000, guid: 10e7d9f099e88de4782df473866d8aa6, type: 3}
+    - {fileID: 2800000, guid: 001b050c28dbc1e4b8e0ddb70814004e, type: 3}
+    - {fileID: 2800000, guid: fb4df83cad6205d4da561fb1691d5556, type: 3}
+    - {fileID: 2800000, guid: 42e0bc05189e9314398b14be4f968e55, type: 3}
+    - {fileID: 2800000, guid: 75ef3acd7ee720241b55f341cf6b35b8, type: 3}
+    - {fileID: 2800000, guid: bc8c66056a0229943a52c657c78ae3fe, type: 3}
+    - {fileID: 2800000, guid: c6d232427740c1a4288703f73a70020d, type: 3}
+    - {fileID: 2800000, guid: ee68b3e28ea03314486f7ceb8e71bbe5, type: 3}
+    - {fileID: 2800000, guid: 7a51f6160a7bb9b4fa5b02643b96a8b7, type: 3}
+    - {fileID: 2800000, guid: 654c4bf72884fe5478615e9097889359, type: 3}
+    - {fileID: 2800000, guid: 13602968d280f634ab1ca8e07ed788a5, type: 3}
+    - {fileID: 2800000, guid: ac419fd08183ad34e868745f5d8b03af, type: 3}
+    - {fileID: 2800000, guid: 30663ac59e802314aa954771a396deb0, type: 3}
+    - {fileID: 2800000, guid: 1a0f7200d537772478f3edc5bb39af6d, type: 3}
+    - {fileID: 2800000, guid: 6df98003b77dd8048bb43579bf083499, type: 3}
+    - {fileID: 2800000, guid: 60d6bed2b92138e4db5ef48f65c83560, type: 3}
+    - {fileID: 2800000, guid: 796d21c3d31eb7e4d8f09c4106e5fabc, type: 3}
+    - {fileID: 2800000, guid: b5ee78cfeed87154892994146c26fd8a, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1a0f7200d537772478f3edc5bb39af6d, type: 3}
+  - {fileID: 21300000, guid: c988e120b8b869a4dae8b3cdd75dabfb, type: 3}
+  - {fileID: 21300000, guid: ac419fd08183ad34e868745f5d8b03af, type: 3}
+  - {fileID: 21300000, guid: 10e7d9f099e88de4782df473866d8aa6, type: 3}
+  - {fileID: 21300000, guid: c6d232427740c1a4288703f73a70020d, type: 3}
+  - {fileID: 21300000, guid: 60d6bed2b92138e4db5ef48f65c83560, type: 3}
+  - {fileID: 21300000, guid: ee68b3e28ea03314486f7ceb8e71bbe5, type: 3}
+  - {fileID: 21300000, guid: 6df98003b77dd8048bb43579bf083499, type: 3}
+  - {fileID: 21300000, guid: 796d21c3d31eb7e4d8f09c4106e5fabc, type: 3}
+  - {fileID: 21300000, guid: bc8c66056a0229943a52c657c78ae3fe, type: 3}
+  - {fileID: 21300000, guid: 42e0bc05189e9314398b14be4f968e55, type: 3}
+  - {fileID: 21300000, guid: abaa463548602514ca87fd2f4ea4ed24, type: 3}
+  - {fileID: 21300000, guid: 30663ac59e802314aa954771a396deb0, type: 3}
+  - {fileID: 21300000, guid: 7a51f6160a7bb9b4fa5b02643b96a8b7, type: 3}
+  - {fileID: 21300000, guid: be3db2d6bfbba25449b2f497552357f7, type: 3}
+  - {fileID: 21300000, guid: 654c4bf72884fe5478615e9097889359, type: 3}
+  - {fileID: 21300000, guid: 13602968d280f634ab1ca8e07ed788a5, type: 3}
+  - {fileID: 21300000, guid: 7d8321b8c7f31a24f99c64fbc60afe4f, type: 3}
+  - {fileID: 21300000, guid: 001b050c28dbc1e4b8e0ddb70814004e, type: 3}
+  - {fileID: 21300000, guid: d68b7a2cb5728c84c9132d124c93cd33, type: 3}
+  - {fileID: 21300000, guid: fb4df83cad6205d4da561fb1691d5556, type: 3}
+  - {fileID: 21300000, guid: 18754e1d7895d7440b54ad2d06f046a9, type: 3}
+  - {fileID: 21300000, guid: e79271ade87fd124abb15ad8e33c5a4c, type: 3}
+  - {fileID: 21300000, guid: 75ef3acd7ee720241b55f341cf6b35b8, type: 3}
+  - {fileID: 21300000, guid: b5ee78cfeed87154892994146c26fd8a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - VIP21
+  - VIP1
+  - VIP19
+  - VIP8
+  - VIP14
+  - VIP23
+  - VIP15
+  - VIP22
+  - VIP24
+  - VIP13
+  - VIP11
+  - VIP5
+  - VIP20
+  - VIP16
+  - VIP4
+  - VIP17
+  - VIP18
+  - VIP6
+  - VIP9
+  - VIP7
+  - VIP10
+  - VIP3
+  - VIP2
+  - VIP12
+  - VIP25
+  m_Tag: VIPBiao
+  m_IsVariant: 0

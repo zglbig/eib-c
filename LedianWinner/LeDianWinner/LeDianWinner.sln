@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeDianWinner", "LeDianWinner.csproj", "{127185D7-77AE-0268-A0E6-33F74367C633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeDianWinner.Plugins", "LeDianWinner.Plugins.csproj", "{AC37E864-F3EC-7AFA-8266-249379980C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeDianWinner.Editor", "LeDianWinner.Editor.csproj", "{C203E890-972B-B5D5-34F8-23EB5EED77C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LedianWinnerHotfix", "..\LedianWinnerHotfix\LedianWinnerHotfix.csproj", "{F9F6E1D4-1D67-4D15-92F7-EAAC754520A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127185D7-77AE-0268-A0E6-33F74367C633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127185D7-77AE-0268-A0E6-33F74367C633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127185D7-77AE-0268-A0E6-33F74367C633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127185D7-77AE-0268-A0E6-33F74367C633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC37E864-F3EC-7AFA-8266-249379980C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC37E864-F3EC-7AFA-8266-249379980C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC37E864-F3EC-7AFA-8266-249379980C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC37E864-F3EC-7AFA-8266-249379980C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C203E890-972B-B5D5-34F8-23EB5EED77C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C203E890-972B-B5D5-34F8-23EB5EED77C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C203E890-972B-B5D5-34F8-23EB5EED77C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C203E890-972B-B5D5-34F8-23EB5EED77C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F6E1D4-1D67-4D15-92F7-EAAC754520A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F6E1D4-1D67-4D15-92F7-EAAC754520A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F6E1D4-1D67-4D15-92F7-EAAC754520A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F6E1D4-1D67-4D15-92F7-EAAC754520A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9F6E1D4-1D67-4D15-92F7-EAAC754520A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LedianWinnerHotfix</RootNamespace>
+    <AssemblyName>LedianWinnerHotfix</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>E:\LedianRelease\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LeDianWinner\Library\ScriptAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="DebugUtils">
+      <HintPath>..\LeDianWinner\Assets\Plugins\DebugUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\LeDianWinner\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>..\LeDianWinner\Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>..\LeDianWinner\Assets\Demigiant\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>..\LeDianWinner\Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>..\LeDianWinner\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\LeDianWinner\Assets\Plugins\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LeDianGame\Common\Common.cs" />
+    <Compile Include="LeDianGame\Common\GameTools.cs" />
+    <Compile Include="LeDianGame\Common\LoadHeadImgUtils.cs" />
+    <Compile Include="LeDianGame\Common\MonoSingleton.cs" />
+    <Compile Include="LeDianGame\Common\NumberConvert.cs" />
+    <Compile Include="LeDianGame\Common\Timer.cs" />
+    <Compile Include="LeDianGame\Common\Utils\AsyncImageDownload.cs" />
+    <Compile Include="LeDianGame\Common\Utils\DownlaodFile.cs" />
+    <Compile Include="LeDianGame\Common\Utils\FileOperationUtils.cs" />
+    <Compile Include="LeDianGame\Common\Utils\_DownloadHandler.cs" />
+    <Compile Include="LeDianGame\Error\DataTableMessage.cs" />
+    <Compile Include="LeDianGame\Error\ErrorImpl.cs" />
+    <Compile Include="LeDianGame\Error\IError.cs" />
+    <Compile Include="LeDianGame\Error\StaticConfigMessage.cs" />
+    <Compile Include="LeDianGame\GameManager\GameManager.cs" />
+    <Compile Include="LeDianGame\Game\BulletScreen.cs" />
+    <Compile Include="LeDianGame\Game\CheatZJH\CheatSelectPanel.cs" />
+    <Compile Include="LeDianGame\Game\CheatZJH\CheatZjhPanel.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\Game1PlayerOperationRoomNotifyIml.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\Game1TcpRoomOperationIml.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\GamePlayer.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\RoomTurnPlayer.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UIGameOtherPlayerInfoPanel.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UIGameOtherPlayerPanel.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UILeftBottomPlayer.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UILeftTopPlayer.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UIPinSanZhangPanel.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UIRightBottomPlayer.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UIRightTopPlayer.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UISelfPlayer.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UIZjhChatPanel.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\UIZJHPanel.cs" />
+    <Compile Include="LeDianGame\Game\ClassicZJH\ZJHEnterRoom.cs" />
+    <Compile Include="LeDianGame\Game\DiceChang\DiceCommand.cs" />
+    <Compile Include="LeDianGame\Game\DiceChang\DiceGameMove.cs" />
+    <Compile Include="LeDianGame\Game\DiceChang\Diceliuliu.cs" />
+    <Compile Include="LeDianGame\Game\DiceChang\DiceNotify.cs" />
+    <Compile Include="LeDianGame\Game\DiceChang\UIDicePlane.cs" />
+    <Compile Include="LeDianGame\Game\TTL\AHResultMono.cs" />
+    <Compile Include="LeDianGame\Game\TTL\GameLotteryOperationRoomNotifyIml.cs" />
+    <Compile Include="LeDianGame\Game\TTL\GameLotteryTcpOperationIml.cs" />
+    <Compile Include="LeDianGame\Game\TTL\UITianTianLePanel.cs" />
+    <Compile Include="LeDianGame\Game\WanRenChang\CardManager.cs" />
+    <Compile Include="LeDianGame\Game\WanRenChang\CardOperation.cs" />
+    <Compile Include="LeDianGame\Game\WanRenChang\GameMove.cs" />
+    <Compile Include="LeDianGame\Game\WanRenChang\liuliu.cs" />
+    <Compile Include="LeDianGame\Game\WanRenChang\UIWanRenChang.cs" />
+    <Compile Include="LeDianGame\Game\WanRenChang\WanRenNotify.cs" />
+    <Compile Include="LeDianGame\Game\WanRenChang\WanrenRoomCommand.cs" />
+    <Compile Include="LeDianGame\Hall\Activity\UIActivityPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Broadcast\FamilyMsgPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Broadcast\GlobalMsgPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Broadcast\SystemMsgPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Broadcast\UIBroadcastPanel.cs" />
+    <Compile Include="LeDianGame\Hall\FirstBuy\UIFirstBuyPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Friend\AddFriendTipPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Friend\ChatWithFriendPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Friend\HallFriendNotifyIml.cs" />
+    <Compile Include="LeDianGame\Hall\Friend\HallFriendOperationIml.cs" />
+    <Compile Include="LeDianGame\Hall\Friend\UIFriendPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Friend\UIMyFriendPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Generalize\GeneralizeOperationIml.cs" />
+    <Compile Include="LeDianGame\Hall\Generalize\HallGeneralizeNotifyIml.cs" />
+    <Compile Include="LeDianGame\Hall\Generalize\UIEarnRecordPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Generalize\UIGeneralizePanel.cs" />
+    <Compile Include="LeDianGame\Hall\Generalize\UIInputInviteCodePanel.cs" />
+    <Compile Include="LeDianGame\Hall\Generalize\UIStartEarnGoldPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Growth\UIGrowthPanel.cs" />
+    <Compile Include="LeDianGame\Hall\MoneyTree\UIMoneyTreePanel.cs" />
+    <Compile Include="LeDianGame\Hall\OtherPlayer\GiftOperationIml.cs" />
+    <Compile Include="LeDianGame\Hall\OtherPlayer\UIOtherPlayerCarPanel.cs" />
+    <Compile Include="LeDianGame\Hall\OtherPlayer\UIOtherPlayerDaojuPanel.cs" />
+    <Compile Include="LeDianGame\Hall\OtherPlayer\UIOtherPlayerGiftPanel.cs" />
+    <Compile Include="LeDianGame\Hall\OtherPlayer\UIOtherPlayerInfoPanel.cs" />
+    <Compile Include="LeDianGame\Hall\OtherPlayer\UIOtherPlayerPanel.cs" />
+    <Compile Include="LeDianGame\Hall\OtherPlayer\UISendGiftPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Rank\UIGoldRankPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Rank\UIRankPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Rank\UIRenPinRankPanel.cs" />
+    <Compile Include="LeDianGame\Hall\RebateRoulette\UIRebatePanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UIBankPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UIHeadPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UIPawnPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UIPlayerCarPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UIPlayerDaojuPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UIPlayerGiftPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UIPlayerInfoPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SelfInfo\UITipsPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Setting\UISettingPanel.cs" />
+    <Compile Include="LeDianGame\Hall\SignIn\SignInOperationIml.cs" />
+    <Compile Include="LeDianGame\Hall\SignIn\UISigninPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Store\CarPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Store\DaojuPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Store\DuihuanPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Store\GoldPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Store\JinbiGoods.cs" />
+    <Compile Include="LeDianGame\Hall\Store\ShopInit.cs" />
+    <Compile Include="LeDianGame\Hall\Store\ShopOperationImpl.cs" />
+    <Compile Include="LeDianGame\Hall\Store\UIShopPanel.cs" />
+    <Compile Include="LeDianGame\Hall\Store\ZuanShiPanel.cs" />
+    <Compile Include="LeDianGame\Hall\UIHallManager.cs" />
+    <Compile Include="LeDianGame\Hall\VIP\CopperCard.cs" />
+    <Compile Include="LeDianGame\Hall\VIP\GoldCard.cs" />
+    <Compile Include="LeDianGame\Hall\VIP\SilverCard.cs" />
+    <Compile Include="LeDianGame\Hall\VIP\UIVipPanel.cs" />
+    <Compile Include="LeDianGame\Loading\StaticData.cs" />
+    <Compile Include="LeDianGame\Loading\UILoadingPanel.cs" />
+    <Compile Include="LeDianGame\Login\UILoginByWX.cs" />
+    <Compile Include="LeDianGame\Login\UILoginManager.cs" />
+    <Compile Include="LeDianGame\Manager\AudioManager.cs" />
+    <Compile Include="LeDianGame\Pay\AliPay.cs" />
+    <Compile Include="LeDianGame\Pay\Order.cs" />
+    <Compile Include="LeDianGame\Pay\PayLoading.cs" />
+    <Compile Include="LeDianGame\Pay\PaySelect.cs" />
+    <Compile Include="LeDianGame\Pay\PayTips.cs" />
+    <Compile Include="LeDianGame\Pay\WeixinPay.cs" />
+    <Compile Include="LeDianGame\Player\PlayerCache.cs" />
+    <Compile Include="LeDianGame\Proxy\desc\Proxy.cs" />
+    <Compile Include="LeDianGame\Proxy\desc\ProxyImpl.cs" />
+    <Compile Include="LeDianGame\Proxy\IHttpSyncService.cs" />
+    <Compile Include="LeDianGame\Proxy\INotify.cs" />
+    <Compile Include="LeDianGame\Proxy\InvokeProxy.cs" />
+    <Compile Include="LeDianGame\Proxy\InvokeService.cs" />
+    <Compile Include="LeDianGame\Proxy\ITcpAsyncService.cs" />
+    <Compile Include="LeDianGame\Proxy\ObjectModel.cs" />
+    <Compile Include="LeDianGame\Proxy\ProxyObj.cs" />
+    <Compile Include="LeDianGame\Proxy\TcpManager.cs" />
+    <Compile Include="LeDianGame\Proxy\TcpMsgHandler.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\ActivityDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\ActivityModel.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\AppErrorDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\CommodityDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\ExcelErrorCodeModule.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\FirstPayDiamondDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\RebateDialDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\SiginDialDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\SignInDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\data\db\VipDataTable.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\BasePlayerDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\CardsDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\ChatDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\DatableModelDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\DatableModelListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\GameRankingDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\GameRankingListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\ItemDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\ItemListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\PbIntegerArr.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\commond\PbIntegerDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\GiftBagInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\GiftDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\LoginDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\MoneyTreeAwardDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\MoneyTreeOpenDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\PlayerInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\PropDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\RankingBaseDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\RankingListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\RebateDialDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\RebateDialInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\db\VersionDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\DiceCountDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\DiceHistoryDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\DiceRoomInfiDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\DiceSettleRankingDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\DiceSettleRankingListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\GameDiceBetUpdateWeathDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\GameDicePositionPlayerInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\dice\GameDicePositionPlayerInfoListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game1\Game1BetAllResponseDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game1\Game1BettleWeatnUpdateDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game1\Game1BettleWeatnUpdateListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game1\Game1PlayerRoomBaseInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game1\Game1PlayerRoomDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game1\Game1SattleEndDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game1\Game1SattleLoseInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2BetUpdateWeathDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2CardDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2CardListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2HistoryDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2HistoryListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2JackpotDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2JackpotListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2PlayerRoomDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2PositionPlayerInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\game2\Game2PositionPlayerInfoListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\BankDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\FriendListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\GeneralizeAwardDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\GeneralizeDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\GeneralizeListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\GoldBaseDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\HallRedEnvelopePlayerDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\HallRedEnvelopePlayerListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\HallRedPacketDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\HallRedPacketListDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\PawnshopDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\hall\RedPacketDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\lottery\LotteryBetDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\lottery\LotteryHistoryDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\dto\lottery\LotteryRoomInfoDto.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\BankOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\DbDatableInfo.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\DbGiftBagOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\GameVersion.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\HallPlayerInfoOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\LoginOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\MoneyTreeOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\RankingOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\RebateDialOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\db\SiginOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\dice\GameDiceHttpRoomOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\dice\GameDicePlayerOperationRoomNotify.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\dice\GameDiceTcpRoomOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\game1\Game1HttpRoomOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\game1\Game1PlayerOperationRoomNotify.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\game1\Game1TcpRoomOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\game2\Game2HttpRoomOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\game2\Game2PlayerOperationRoomNotify.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\game2\Game2TcpRoomOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\gate\LoginOut.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\ActivityOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\FriendRedPacketOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\GeneralizeOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\GiftOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\HallFriendNotify.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\HallFriendOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\HallGeneralizeNotify.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\HallRedPacketOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\PayOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\hall\ShopOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\lottery\GameLotteryHttpOperation.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\lottery\GameLotteryOperationRoomNotify.cs" />
+    <Compile Include="LeDianGame\SeverRouse\proxy\lottery\GameLotteryTcpOperation.cs" />
+    <Compile Include="LeDianGame\Tips\OpenPrivateTips.cs" />
+    <Compile Include="LeDianGame\Tips\UITipsManager.cs" />
+    <Compile Include="LeDianGame\Tips\UITipsOkManager.cs" />
+    <Compile Include="LeDianGame\Tips\UITipsToActivity.cs" />
+    <Compile Include="LeDianGame\UIFromeWork\MessageManager.cs" />
+    <Compile Include="LeDianGame\UIFromeWork\PathStr.cs" />
+    <Compile Include="LeDianGame\UIFromeWork\Singleton.cs" />
+    <Compile Include="LeDianGame\UIFromeWork\SingletonMono.cs" />
+    <Compile Include="LeDianGame\UIFromeWork\UIBase.cs" />
+    <Compile Include="LeDianGame\UIFromeWork\UIManager.cs" />
+    <Compile Include="LeDianGame\UIFromeWork\UIMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LeDianGame\Demigiant\" />
+    <Folder Include="LeDianGame\SeverRouse\data\game1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LeDianGame\SeverRouse\error\appErrorDataTable_org.zgl.error.AppErrorDataTable.xlsx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DefaultHeadImg
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 12
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingParameters:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: ffe0c92b6aaecd3498e3e0ee66d19699, type: 3}
+    - {fileID: 2800000, guid: e7409f28ae5243b4c9b8f12c3941e3c1, type: 3}
+    - {fileID: 2800000, guid: 54fba63b1d2a1b944b14e0ecf45598a5, type: 3}
+    - {fileID: 2800000, guid: e3faa9fa479a46247a8420da6787bcae, type: 3}
+    - {fileID: 2800000, guid: 5158c35a732cd08468afa18da37df05b, type: 3}
+    - {fileID: 2800000, guid: d72354c95cf75d64ab343cead0daf3e1, type: 3}
+    - {fileID: 2800000, guid: 90cb64ac81800344b8d8d7c0a542c9a4, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e7409f28ae5243b4c9b8f12c3941e3c1, type: 3}
+  - {fileID: 21300000, guid: d72354c95cf75d64ab343cead0daf3e1, type: 3}
+  - {fileID: 21300000, guid: 5158c35a732cd08468afa18da37df05b, type: 3}
+  - {fileID: 21300000, guid: e3faa9fa479a46247a8420da6787bcae, type: 3}
+  - {fileID: 21300000, guid: ffe0c92b6aaecd3498e3e0ee66d19699, type: 3}
+  - {fileID: 21300000, guid: 54fba63b1d2a1b944b14e0ecf45598a5, type: 3}
+  - {fileID: 21300000, guid: 90cb64ac81800344b8d8d7c0a542c9a4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 2
+  - 6
+  - 5
+  - 4
+  - 1
+  - 3
+  - 7
+  m_Tag: DefaultHeadImg
+  m_IsVariant: 0
